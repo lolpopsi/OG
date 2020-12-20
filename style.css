@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-size: border-box;
+	color: darkgrey;
+	
+}
+
+/* NavBar */
+
+.nav {
+	height: 60px;
+	background-color: 252525;
+	width: 100%;
+	color: white;
+	font-size: 16px;
+}
+.nav ul{
+	list-style: none;
+	text-align: right;
+}
+.nav a {
+	text-decoration: none;
+}
+.nav li {
+	display: inline-block;
+	border-radius: 50px;
+	margin: 25px 50px;
+
+}
+
+.sub {
+	position: absolute;
+	left: 0;
+}
+
+/* Homepage */
+
+.home {
+	background: url(https://wallpapercave.com/wp/TFEhpSz.png);
+	color: white;
+}
+
+.lorem {
+	padding: 10px 5px;
+}
+
+hr {
+	background-color: darkgrey;
+	height: 10px;
+	width: 200px;
+	border-radius: 0px 100px 100px 0px;
+}
+
+.btn {
+	background: darkgrey;
+	border-radius: 0px 100px 100px 0px;
+	display: inline-block;
+	color: white;
+}
