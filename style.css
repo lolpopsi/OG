@@ -1,26 +1,29 @@
+ body {
+	background: url(cityAesthetic.jpg);
+	background-size: cover;
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-size: border-box;
-	color: darkgrey;
-	
+	color: black;
 }
 
 /* NavBar */
 
 .nav {
 	height: 60px;
-	background-color: 252525;
+	background-color: black;
 	width: 100%;
 	color: white;
 	font-size: 16px;
 }
 .nav ul{
-	list-style: none;
-	text-align: right;
+text-align: right;
 }
 .nav a {
 	text-decoration: none;
+	position: absolute;
 }
 .nav li {
 	display: inline-block;
@@ -30,31 +33,26 @@
 }
 
 .sub {
-	position: absolute;
 	left: 0;
 }
 
 /* Homepage */
 
-.home {
-	background: url(https://wallpapercave.com/wp/TFEhpSz.png);
-	color: white;
-}
+
 
 .lorem {
-	padding: 10px 5px;
+
 }
 
 hr {
-	background-color: darkgrey;
-	height: 10px;
-	width: 200px;
-	border-radius: 0px 100px 100px 0px;
+	height: 5px;
+	background-color: black;
+	border: none;
+	width: 153px;
+	border-radius: 100px;
 }
 
 .btn {
-	background: darkgrey;
-	border-radius: 0px 100px 100px 0px;
-	display: inline-block;
-	color: white;
+ background: white;
+ border-radius: 100px;
 }
