@@ -6,30 +6,30 @@
 	margin: 0;
 	padding: 0;
 	box-size: border-box;
-	color: black;
+	color: #0a2830;
 }
 
 /* NavBar */
 
 .nav {
 	height: 60px;
-	background-color: black;
+	background-color: #0a2830;
 	width: 100%;
 	color: white;
 	font-size: 16px;
 }
 .nav ul{
-text-align: right;
+text-align: center;
 }
 .nav a {
 	text-decoration: none;
 	position: absolute;
+	top: 10px;
 }
 .nav li {
 	display: inline-block;
 	border-radius: 50px;
-	margin: 25px 50px;
-
+	margin: 25px 100px;
 }
 
 .sub {
@@ -46,13 +46,20 @@ text-align: right;
 
 hr {
 	height: 5px;
-	background-color: black;
+	background-color: #0a2830;
 	border: none;
 	width: 153px;
 	border-radius: 100px;
 }
 
 .btn {
- background: white;
+ background: rgb(197, 140, 185);
  border-radius: 100px;
+ padding: 5px;
+ font-size: 28px;
+}
+
+.btn:hover {
+	background-color: black;
+	color: rgb(197, 140, 185);
 }
