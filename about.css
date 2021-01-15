@@ -1,12 +1,12 @@
- body {
-	background: url(cityAesthetic.jpg);
-	background-size: cover;
+body {
+ background: url(cityAesthetic.jpg);
+ background-size: cover;
 }
 * {
-	margin: 0;
-	padding: 0;
-	box-size: border-box;
-	color: #0a2830;
+ margin: 0;
+ padding: 0;
+ box-size: border-box;
+ color: #0a2830;
 }
 
 /* NavBar */
