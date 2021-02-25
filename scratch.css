@@ -73,3 +73,7 @@ hr {
 .front {
  text-align: center;
 }
+iframe {
+  border-color: #0a2830;
+  border-width: 10px;
+}
