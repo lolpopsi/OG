@@ -49,10 +49,16 @@ text-align: center;
 }
 
 /* Homepage */
-
+@keyframes zoom {
+  0% {font-size: 200px}
+  50% {font-size: 225px}
+  100% {font-size: 200px}
+}
 h1 {
-  font-size: 200px;
   margin-top: 100px;
+  animation-name: zoom;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 h2 {
   font-size: 25px;

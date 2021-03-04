@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/697663.jpg");
+  font-family: 'Amatic SC', cursive;
+  padding: 20px;
+}
+.img {
+  border-radius: 50px;
+  border-color: #daa520;
+  border-style: double;
+  border-width: 5px;
+  height: 250px;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+h1  {
+  font-size: 75px;
+}
+h2  {
+  font-size: 54px;
+}
+.Toga {
+  background-color: #eae0c8;
+  color: #daa520;
+  margin: 20px;
+  height: 500px;
+  text-overflow: auto;
+}
