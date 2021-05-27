@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+      * {
+        color: #212c26;
+        font-family: 'Sue Ellen Francisco', cursive;
+      }
+      body {
+        background:             url("https://i.ibb.co/KhnrF2k/image-1.png");
+      }
+      h1 {
+        font-size: 155px;
+        position: relative;
+        left: 210px
+      }
+      button {
+        font-size: 60px;
+        border-radius: 10px;
+        padding: 5px 20px 5px 20px;
+        border-style: outset;
+        border-width: medium;
+        border-color: #212c26;
+        background: #226f29;
+        left: 320px;
+        position: relative;
+      }
+      button:active {
+        border-style: inset;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="txt">
+      <h1>Froggybot</h1>
+      <button onclick = commit() id="btn">Kero</button>
+    </div>
+  </body>
+  <script type="text/javascript">
+    var joke = [
+  "What do you call a frog thats not happy?", "What's a frogs favorite soda?", "What's a frog's favorite game?", "Why are frogs so happy?","What kind of shoes do frogs wear?", "What do frogs do with paper?"
+  ];
+  var answer = [
+  "Unhoppy", "Diet Croak", "Croak-et", "They eat whatever bugs them", "Open toad sandals", "Rip-it"
+  ];
+  var gratitude = [
+  "That's right, kero!", "Again? Good job!", "How do you know all of my jokes, kero?", "You must be cheating!", "I give up, you know everything."
+  ]
+  var guess;
+  var num;
+  var skill = 0;
+  var distress = 0;
+  var hate = [
+  "I don't blame you, that was a hard one.", "Atleast guess next time.", "Please try guessing.", "These aren't difficult jokes.", "How dumb are you?", "You must be a robot.", "Robot!!"
+  ];
+
+  function commit(){
+  if (confirm("Would you like to hear a joke?")) {
+    tellJoke();
+  }
+  };
+
+  function tellJoke(){
+  num = (Math.round(Math.random() * 5));
+  // alert(num);
+  guess = prompt(joke[num]);
+  if (guess.toLowerCase() === answer[num].toLowerCase()) {
+    alert(gratitude[skill]);
+    skill += 1;
+    if (skill === 5) {
+  alert("You are the master at frog jokes. Reload the page to restart or mess up on a joke")
+    }
+  } else {
+    if (guess === "idk") {
+      alert(hate[distress])
+      skill = 0;
+      distress += 1;
+    } else {
+      alert("I'm disapointed")
+    alert(answer[num])
+      skill = 0;
+    };
+  }
+  };
+  </script>
+</html>
